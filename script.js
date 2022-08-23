@@ -73,7 +73,7 @@ let scores, roundScores, activePlayer, playing;
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
   
   // the winner statement
-  if (scores[activePlayer] >= 10){
+  if (scores[activePlayer] >= 100){
     document.querySelector('#name-' + activePlayer).textContent = 'winner!'
     diceImg.style.display = 'none';
                              
